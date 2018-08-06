@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="bd.service.dao.ReportDao">
+
+
+
+
+<!-- 添加数据 -->
+	<insert id="insertSingle" parameterType="bd.service.domain.ReportVo">
+		INSERT INTO report_engine_report 
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="report_name != null">
+				report_name,
+			</if>
+			<if test="report_content != null">
+				report_content,
+			</if>
+			<if test="report_description != null">
+				report_description,
+			</if>
+			<if test="publish_status != null">
+				publish_status,
+			</if>
+			<if test="directory_id != null">
+				directory_id,
+			</if>
+			<if test="status != null">
+				status,
+			</if>
+			<if test="create_user != null">
+				create_user,
+			</if>
+			<if test="update_user != null">
+				update_user,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="report_name != null">
+				#{report_name,jdbcType=VARCHAR},
+			</if>
+			<if test="report_content != null">
+				#{report_content,jdbcType=VARCHAR},
+			</if>
+			<if test="report_description != null">
+				#{report_description,jdbcType=VARCHAR},
+			</if>
+			<if test="publish_status != null">
+				#{publish_status,jdbcType=VARCHAR},
+			</if>
+					<if test="directory_id != null">
+				${directory_id},
+			</if>
+			<if test="status != null">
+				#{status,jdbcType=VARCHAR},
+			</if>
+			<if test="create_user != null">
+				#{create_user,jdbcType=VARCHAR},
+			</if>
+			<if test="update_user != null">
+				#{update_user,jdbcType=VARCHAR},
+			</if>
+		</trim>
+	</insert>
+
+
+	<!-- 更新数据集 -->
+	<update id="updateSingle" parameterType="bd.service.domain.ReportVo">
+		UPDATE
+		report_engine_report 
+		<set> 
+				<if test="report_name != null and report_name != ''">
+				report_name = #{report_name,jdbcType=VARCHAR},
+			</if>
+			<if test="report_content != null ">
+				report_content = #{report_content,jdbcType=VARCHAR},
+			</if>
+		<if test="report_description != null and report_description != ''">
+				report_description = #{report_description,jdbcType=VARCHAR},
+			</if>
+				<if test="publish_status != null and publish_status != ''">
+				publish_status = #{publish_status,jdbcType=VARCHAR},
+			</if>
+				<if test="publish_path != null and publish_path != ''">
+				publish_path= #{publish_path,jdbcType=VARCHAR},
+			</if>
+				<if test="publish_time != null and publish_time != ''">
+				publish_time =  NOW(),
+			</if>
+			<if test="directory_id != null and directory_id != ''">
+				directory_id = #{directory_id},
+			</if>
+			<if test="status != null and status != ''">
+				status = #{status,jdbcType=VARCHAR},
+			</if>
+			<if test="create_user != null and create_user != ''">
+				create_user = #{create_user,jdbcType=VARCHAR},
+			</if>
+			<if test="update_user != null and update_user != ''">
+				update_user = #{update_user,jdbcType=VARCHAR},
+			</if>
+			<if test="1 != 0">
+				update_time = NOW(),
+			</if>
+		</set>
+		WHERE report_id = #{report_id}
+	</update>
+
+
+
+</mapper>
