@@ -1,2 +1,2 @@
-# u-boot-learning
+# uboot-learning
 学习与分享
