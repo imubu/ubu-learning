@@ -1,0 +1,19 @@
+#杀掉8083tomcat
+ps -ef|grep bd-test-8083|grep  -v  grep|awk '{print $2}'|xargs kill -9
+echo "*******************************stop bd-test-8083 success!"
+#暂停3秒
+sleep 3
+#以当前时间命名原文件，备份原war包到bd-bak对应的项目目录下
+cp /data/bd-test-8083/webapps/bd-web-report-app.war `date  "+bd-web-report-app.war~%Y-%m-%d~%H-%M-%S"`
+cp bd-web-report-app.war~* /data/bd-bak/bd-web-report-app
+#删除临时文件
+rm bd-web-report-app.war~*
+#删除旧war包
+rm -rf /data/bd-test-8083/webapps/bd-web-report-app.war
+#删除旧的war包解压文件夹
+rm -rf /data/bd-test-8083/webapps/bd-web-report-app
+#拷贝新的war到webapps下
+cp target/bd-web-report-app-0.0.1-SNAPSHOT.war  /data/bd-test-8083/webapps/bd-web-report-app.war
+echo "*****************************************start bd-test-8083.........."
+#重启tomcat
+sh /data/bd-test-8083/bin/startup.sh 

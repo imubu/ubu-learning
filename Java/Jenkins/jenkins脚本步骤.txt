@@ -1,0 +1,18 @@
+jenkins
+脚本包括web的和jar的
+web类型的参考bd-we-report-app
+jar类型的参考bd-util-redis
+
+bd-web-report-app
+脚本步骤：
+1.1关闭bd-web-report-app的tomcat
+1.2备份bd-web-report-app到/data/bd-bak/bd-web-report-app_YYYYMMDDHHMMSS
+1.3更新最新代码到bd-web-report-app
+1.4启动bd-web-report-app的tomcat
+
+bd-util-redis
+脚本步骤：
+1.1关闭bd-util-redis
+1.2备份bd-util-redis到/data/bd-bak/bd-util-redis_YYYYMMDDHHMMSS
+1.3更新bd-util-redis
+1.4启动bd-util-redis，nohup java -jar /data/bd-util-redis/bd-util-redis.jar >/dev/null 2>&1 &

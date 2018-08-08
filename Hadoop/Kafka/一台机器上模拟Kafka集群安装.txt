@@ -1,0 +1,57 @@
+--解压Kafka
+tar -zxf /home/tar/kafka_2.11-1.0.0.tgz -C /home/opt/kafka/cluster
+cd /home/opt/kafka/cluster/kafka_2.11-1.0.0
+
+--复制配置文件server.properties
+cp config/server.properties config/server-1.properties
+cp config/server.properties config/server-2.properties
+cp config/server.properties config/server-3.properties
+
+--修改server-1.properties的内容为
+broker.id=1
+listeners=PLAINTEXT://:9092
+log.dir=/home/opt/kafka/cluster/kafka_2.11-1.0.0/kafka-logs/kafka-logs-1
+zookeeper.connect=myj01:2181
+zookeeper.connection.timeout.ms=6000	
+
+--修改server-2.properties的内容为
+broker.id=2
+listeners=PLAINTEXT://:9093
+log.dir=/home/opt/kafka/cluster/kafka_2.11-1.0.0/kafka-logs/kafka-logs-2
+zookeeper.connect=myj01:2181
+zookeeper.connection.timeout.ms=6000	
+
+--修改server-3.properties的内容为
+broker.id=3
+listeners=PLAINTEXT://:9094
+log.dir=/home/opt/kafka/cluster/kafka_2.11-1.0.0/kafka-logs/kafka-logs-3
+zookeeper.connect=myj01:2181
+zookeeper.connection.timeout.ms=6000	
+
+--修改zookeeper.properties配置文件中的dataDir（首先要创建知道的文件夹）
+dataDir=/home/opt/kafka/cluster/kafka_2.11-1.0.0/zookeeper-data
+
+--启动zookeeper
+./bin/zookeeper-server-start.sh ./config/zookeeper.properties 
+
+--启动Kafka
+bin/kafka-server-start.sh config/server-1.properties &
+bin/kafka-server-start.sh config/server-2.properties &
+bin/kafka-server-start.sh config/server-3.properties &
+
+
+--创建主题
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 3 --partitions 1 --topic my-replicated-topic
+
+--查看主题
+bin/kafka-topics.sh --list --zookeeper localhost:2181  
+
+--查看某个主题
+bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic my-replicated-topic
+
+--启动生产者
+bin/kafka-console-producer.sh --broker-list localhost:9092 --topic my-replicated-topic
+
+--启动消费者
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --from-beginning --topic my-replicated-topic
+
