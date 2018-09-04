@@ -10,3 +10,7 @@
 [lombok注解Getter和Setter的使用](https://www.jianshu.com/p/bb3f5dd518e8)
 
 [maven私仓](https://github.com/imubu/ubu-learning/blob/master/Java/maven%E7%A7%81%E4%BB%93.md)
+
+[VUE入门介绍](https://github.com/imubu/ubu-learning/blob/master/VueJS/VUE%E5%85%A5%E9%97%A8%E4%BB%8B%E7%BB%8D.pdf)
+
+[VUE入门常用功能](https://github.com/imubu/ubu-learning/blob/master/VueJS/VUE%E5%85%A5%E9%97%A8%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD.pdf)
