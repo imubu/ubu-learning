@@ -8,3 +8,5 @@
 [lombok快速入门](https://www.jianshu.com/p/1e6d585bc1d2)
 
 [lombok注解Getter和Setter的使用](https://www.jianshu.com/p/bb3f5dd518e8)
+
+[maven私仓]()
