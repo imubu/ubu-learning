@@ -9,4 +9,4 @@
 
 [lombok注解Getter和Setter的使用](https://www.jianshu.com/p/bb3f5dd518e8)
 
-[maven私仓]()
+[maven私仓](https://github.com/imubu/ubu-learning/blob/master/Java/maven%E7%A7%81%E4%BB%93.md)
