@@ -14,3 +14,8 @@
 [VUE入门介绍](https://github.com/imubu/ubu-learning/blob/master/VueJS/VUE%E5%85%A5%E9%97%A8%E4%BB%8B%E7%BB%8D.pdf)
 
 [VUE入门常用功能](https://github.com/imubu/ubu-learning/blob/master/VueJS/VUE%E5%85%A5%E9%97%A8%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD.pdf)
+
+[远程执行Shell命令-通过Jsch连接](https://github.com/imubu/ubu-learning/blob/master/Java/java%20%E8%BF%9C%E7%A8%8B%E6%89%A7%E8%A1%8CShell%E5%91%BD%E4%BB%A4-%E9%80%9A%E8%BF%87Jsch%E8%BF%9E%E6%8E%A5.pdf)
+
+[远程执行Shell命令-通过ganymed-ssh2连接](https://github.com/imubu/ubu-learning/blob/master/Java/java%20%E8%BF%9C%E7%A8%8B%E6%89%A7%E8%A1%8CShell%E5%91%BD%E4%BB%A4-%E9%80%9A%E8%BF%87ganymed-ssh2%E8%BF%9E%E6%8E%A5.pdf)
+    
