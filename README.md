@@ -18,4 +18,6 @@
 [远程执行Shell命令-通过Jsch连接](https://github.com/imubu/ubu-learning/blob/master/Java/java%20%E8%BF%9C%E7%A8%8B%E6%89%A7%E8%A1%8CShell%E5%91%BD%E4%BB%A4-%E9%80%9A%E8%BF%87Jsch%E8%BF%9E%E6%8E%A5.pdf)
 
 [远程执行Shell命令-通过ganymed-ssh2连接](https://github.com/imubu/ubu-learning/blob/master/Java/java%20%E8%BF%9C%E7%A8%8B%E6%89%A7%E8%A1%8CShell%E5%91%BD%E4%BB%A4-%E9%80%9A%E8%BF%87ganymed-ssh2%E8%BF%9E%E6%8E%A5.pdf)
+
+[Linux下安装redis](https://github.com/imubu/ubu-learning/blob/master/Linux/Linux%E4%B8%8B%E5%AE%89%E8%A3%85redis.md)
     
