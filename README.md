@@ -21,4 +21,4 @@
 
 [Linux下安装redis](https://github.com/imubu/ubu-learning/blob/master/Linux/Linux%E4%B8%8B%E5%AE%89%E8%A3%85redis.md)
     
-[如何正确使用 Spring Cloud](https://github.com/imubu/ubu-learning/blob/master/Linux/Linux%E4%B8%8B%E5%AE%89%E8%A3%85redis.md)
+[如何正确使用 Spring Cloud](https://github.com/imubu/ubu-learning/blob/master/SpringCloud/%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E4%BD%BF%E7%94%A8%20Spring%20Cloud.pdf)
