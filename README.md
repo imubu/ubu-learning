@@ -25,3 +25,5 @@
 [使用java开发简单的自动部署](https://github.com/imubu/ubu-learning/blob/master/Java/%E4%BD%BF%E7%94%A8java%E5%BC%80%E5%8F%91%E7%AE%80%E5%8D%95%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2.md)
 
 [SpringCloud服务网关zuul](https://github.com/imubu/ubu-learning/blob/master/Java/SpringCloud%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3zuul.md)
+
+[使用squirrel-sql连接phoenix的Hbase数据库](https://github.com/imubu/ubu-learning/blob/master/Hadoop/Hbase/%E4%BD%BF%E7%94%A8squirrel-sql%E8%BF%9E%E6%8E%A5phoenix%E7%9A%84Hbase%E6%95%B0%E6%8D%AE%E5%BA%93.md)
