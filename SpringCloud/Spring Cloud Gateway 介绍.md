@@ -14,7 +14,7 @@ Spring Cloud Gateway 作为 Spring Cloud 生态系统中的网关，目标是替
 
 **工作流程：**
 
-![img](http://www.itmind.net/assets/images/2018/springcloud/spring-cloud-gateway.png)
+![img](https://github.com/imubu/ubu-learning/blob/master/SpringCloud/spring_cloud_gateway_diagram.png)
 
 客户端向 Spring Cloud Gateway 发出请求。如果 Gateway Handler Mapping 中找到与请求相匹配的路由，将其发送到 Gateway Web Handler。Handler 再通过指定的过滤器链来将请求发送到我们实际的服务执行业务逻辑，然后返回。 过滤器之间用虚线分开是因为过滤器可能会在发送代理请求之前（“pre”）或之后（“post”）执行业务逻辑。
 
@@ -137,7 +137,7 @@ Predicate 来源于 Java 8，是 Java 8 中引入的一个函数，Predicate 接
 
 在 Spring Cloud Gateway 中 Spring 利用 Predicate 的特性实现了各种路由匹配规则，有通过 Header、请求参数等不同的条件来进行作为条件匹配到对应的路由。网上有一张图总结了 Spring Cloud 内置的几种 Predicate 的实现。
 
-![1550807118919](C:\Users\78200\AppData\Roaming\Typora\typora-user-images\1550807118919.png)
+![spring_cloud_gateway_predicate](https://github.com/imubu/ubu-learning/blob/master/SpringCloud/spring_cloud_gateway_predicate.png)
 
 说白了 Predicate 就是为了实现一组匹配规则，方便让请求过来找到对应的 Route 进行处理，接下来我们接下 Spring Cloud GateWay 内置几种 Predicate 的使用。
 
