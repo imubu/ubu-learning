@@ -29,3 +29,5 @@
 [使用squirrel-sql连接phoenix的Hbase数据库](https://github.com/imubu/ubu-learning/blob/master/Hadoop/Hbase/%E4%BD%BF%E7%94%A8squirrel-sql%E8%BF%9E%E6%8E%A5phoenix%E7%9A%84Hbase%E6%95%B0%E6%8D%AE%E5%BA%93.md)
 
 [Spring Cloud Gateway 介绍](https://github.com/imubu/ubu-learning/blob/master/SpringCloud/Spring%20Cloud%20Gateway%20%E4%BB%8B%E7%BB%8D.md)
+
+[kafka connect 使用方法](https://github.com/imubu/ubu-learning/blob/master/Linux/kafka%20connect.md)
