@@ -1,21 +1,21 @@
 # 学习与分享
 + 学习与分享的宗旨是共同持续成长。
-+ 由于一些文档带有版权标识，故采用私有仓的方式分享，可点击链接加入。
++ 部分分享由于带有版权标识，故采用私有仓的方式分享，可点击链接加入。
 ## 学习主题清单
-> 1# **学习主题**：[计算机组成原理](https://github.com/iamhiwon/learning-principles-of-computer-composition/invitations) [@iamhiwon](https://github.com/iamhiwon)
+> 1# **学习主题**：[计算机组成原理](https://github.com/iamhiwon/learning-principles-of-computer-composition/invitations) @iamhiwon
 
-> 2# **学习主题**：[Spring-Cloud-Ribbon](https://github.com/iamhiwon/learning-Spring-Cloud-Ribbon/invitations) 
+> 2# **学习主题**：[Spring-Cloud-Ribbon](https://github.com/iamhiwon/learning-Spring-Cloud-Ribbon/invitations) @livening
 
 
-> 3# **学习主题**：[flume](https://github.com/iamhiwon/learning-flume/invitations)
+> 3# **学习主题**：[flume](https://github.com/iamhiwon/learning-flume/invitations) @Jungle-Lee
 
-> 4# **学习主题**：[《分布式搜索引擎Elasticsearch》工作机制与底层原理](https://github.com/iamhiwon/learning-Elasticsearch/invitations)
+> 4# **学习主题**：[《分布式搜索引擎Elasticsearch》工作机制与底层原理](https://github.com/iamhiwon/learning-Elasticsearch/invitations) @newstar281
 
-> 5# **学习主题**：[java多线程方向](https://github.com/iamhiwon/learning-java-multithreading/invitations)
+> 5# **学习主题**：[java多线程方向](https://github.com/iamhiwon/learning-java-multithreading/invitations) @xietuke
 
-> 6# **学习主题**：[数据结构](https://github.com/iamhiwon/learning-data-structure-design/invitations)
+> 6# **学习主题**：[数据结构](https://github.com/iamhiwon/learning-data-structure-design/invitations) @wooderpecker
 
-> 7# **学习主题**：[java设计模式](https://github.com/iamhiwon/learning-java-design-pattern/invitations) [@visionsws](https://github.com/visionsws) 
+> 7# **学习主题**：[java设计模式](https://github.com/iamhiwon/learning-java-design-pattern/invitations) @visionsws 
 
 ## 学习文章清单
 > 1# [Spring Data JPA的使用（一）](https://github.com/imubu/ubu-learning/blob/master/SpringCloud/Spring%20Data%20JPA%E7%9A%84%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89.md)
@@ -50,11 +50,13 @@
 > 15# [kafka connect 使用方法](https://github.com/imubu/ubu-learning/blob/master/Linux/kafka%20connect.md)
 
 ## Contributions
-+ 徐海望 [@iamhiwon](https://github.com/iamhiwon)
-+ 朱文   [@zhu-wen](https://github.com/zhu-wen)
-+ 石伟森 [@visionsws](https://github.com/visionsws) 
-+ 吴康伦 [@wooderpecker](https://github.com/wooderpecker) 
-+ 彭艺华   [@pengyihua](https://github.com/pengyihua)
-+ 张涛   [@Bobzhangfighting](https://github.com/Bobzhangfighting)
-+ 李竣康 [@Jungle-Lee](https://github.com/Jungle-Lee)
-+ 谢土科 [@xietuke](https://github.com/xietuke)
++ [徐海望@iamhiwon](https://github.com/iamhiwon)
++ [朱文@zhu-wen](https://github.com/zhu-wen)
++ [石伟森@visionsws](https://github.com/visionsws) 
++ [吴康伦@wooderpecker](https://github.com/wooderpecker) 
++ [彭艺华@pengyihua](https://github.com/pengyihua)
++ [张涛@Bobzhangfighting](https://github.com/Bobzhangfighting)
++ [李竣康@Jungle-Lee](https://github.com/Jungle-Lee)
++ [谢土科@xietuke](https://github.com/xietuke)
++ [李代宁@livening](https://github.com/livening)
++ [谭新星@newstar281](https://github.com/newstar281)
