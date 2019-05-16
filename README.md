@@ -17,6 +17,11 @@
 
 > 7# **学习主题**：[java设计模式](https://github.com/iamhiwon/learning-java-design-pattern/invitations) @visionsws 
 
+## 分享资料清单
+> 1# [彩讯内部数据挖掘培训](https://github.com/iamhiwon/sharing-richinfo-datamining) @iamhiwon
+
+> 2# [蓝月亮内训，跨部门沟通与演讲汇报能力提升](https://github.com/iamhiwon/sharing-BM-Communication-and-presentation-skills) @iamhiwon
+
 ## 学习文章清单
 > 1# [Spring Data JPA的使用（一）](https://github.com/imubu/ubu-learning/blob/master/SpringCloud/Spring%20Data%20JPA%E7%9A%84%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89.md)
 
