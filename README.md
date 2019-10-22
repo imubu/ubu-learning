@@ -1,6 +1,9 @@
-# Headline
+# 学习与分享
++ 学习与分享的宗旨是共同持续成长。
++ 部分分享由于带有版权标识，故采用私有仓的方式分享，可点击链接加入。
+## 学习主题清单
+> 1# **学习主题**：[计算机组成原理](https://github.com/iamhiwon/learning-principles-of-computer-composition/invitations) @iamhiwon
 
-<<<<<<< HEAD
 > 2# **学习主题**：[Spring-Cloud-Ribbon](https://github.com/iamhiwon/learning-Spring-Cloud-Ribbon/invitations) @livening
 
 
@@ -62,6 +65,3 @@
 + [谢土科@xietuke](https://github.com/xietuke)
 + [李代宁@livening](https://github.com/livening)
 + [谭新星@newstar281](https://github.com/newstar281)
-=======
-> An awesome project.
->>>>>>> e60c254331e3d5b5fd79e6606da6958a95b65a5f
