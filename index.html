@@ -12,11 +12,66 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-	  loadSidebar: true,
+      //定义路由别名，可以更自由的定义路由规则。 支持正则。
+      alias: {
+            '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      // 加载 _sidebar.md,加载自定义侧边栏
+      loadSidebar: true,
+      //加载自定义导航栏
+      loadNavbar: false,
+      // 强制悬停,切换页面后是否自动跳转到页面顶部。
+      auto2top: true,
+      // 调整副标题的级数
+      subMaxLevel: 2,
+      // 替换主题色
+      themeColor: '#4CAF50',
+      themeable: {
+          readyTransition : true, // default
+          responsiveTables: true  // default
+      },
+
+      showLevel: true,
+      //文档标题，会显示在侧边栏顶部。
       name: '',
-      repo: ''
+      //配置仓库地址或者 username/repo 的字符串，会在页面右上角渲染一个 GitHub Corner 挂件。
+      repo: '',
+      //禁用 emoji 解析
+      noEmoji: true,
+      tocLevel: 6,
+      //搜索配置项
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto', // or 'auto'
+        placeholder: '搜索',
+        noData: '找不到结果',
+        // 搜索标题的最大程级, 1 - 6
+        depth: 4
+      },
+      pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+      }
+
     }
   </script>
+
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/prismjs/components/prism-sql.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-http.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-json.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-nginx.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- docsify-themeable -->
+  <script src="https://unpkg.com/docsify-themeable"></script>
 </body>
 </html>
