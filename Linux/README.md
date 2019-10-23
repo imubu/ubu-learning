@@ -1,0 +1,5 @@
+## [Linux下安装redis](https://github.com/imubu/ubu-learning/tree/master/Linux)
+## [linux入门-彭艺华.ppt](https://github.com/imubu/ubu-learning/tree/master/Linux)
+## [kafka_connect](https://github.com/imubu/ubu-learning/tree/master/Linux)
+## [Docker入门.pdf](https://github.com/imubu/ubu-learning/tree/master/Linux)
+## [CentOS 6.5安装jdk1.8.docx](https://github.com/imubu/ubu-learning/tree/master/Linux)
